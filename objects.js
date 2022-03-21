@@ -81,38 +81,38 @@
 
 // ACTIVITY 1
 
-// const person = {
-//     name:"Alex Evans",
-//     age: 23,
-//     favSongs: [
-//         "She's Lost Control - Joy Division",
-//         "Cruiser's Creek - The Fall",
-//         "Normalisation - Parquet Courts",
-//         "Hunger for a Way Out - Sweeping Promises",
-//         "Pontiac 87 - Protomartyr"
-//     ],
-// }
+const person = {
+    name:"Alex Evans",
+    age: 23,
+    favSongs: [
+        "She's Lost Control - Joy Division",
+        "Cruiser's Creek - The Fall",
+        "Normalisation - Parquet Courts",
+        "Hunger for a Way Out - Sweeping Promises",
+        "Pontiac 87 - Protomartyr"
+    ],
+}
 
-// let sayHi = `Hello my name is ${person.name}`
-// console.log(sayHi);
+let sayHi = `Hello my name is ${person.name}`
+console.log(sayHi);
 
 // Activity 2
 
-// const pet = {
-//     name: "Graham",
-//     typeOfPet:"Hamster",
-//     age: 5,
-//     colour: "Ginger",
-//     eat: ()=>{
-//         console.log(`${pet.name} is eating.`)
-//     }, 
-//     drink:()=>{
-//         console.log(`${pet.name} is drinking.`)
-//     }
-// }
+const pet = {
+    name: "Graham",
+    typeOfPet:"Hamster",
+    age: 5,
+    colour: "Ginger",
+    eat: ()=>{
+        console.log(`${pet.name} is eating.`)
+    }, 
+    drink:()=>{
+        console.log(`${pet.name} is drinking.`)
+    }
+}
 
-// console.log(pet.eat());
-// console.log(pet.drink());
+console.log(pet.eat());
+console.log(pet.drink());
 
 // Activity 3
 
@@ -122,10 +122,3 @@
 // They should return a string saying [Your order] is … with all
 // items chosen with costs and total costs. 
 
-const coffeeShop = {
-    branch: "MQ Coffee" 
-    Drinks: [
-        "Latte - £2.60",
-        ""
-    ]
-}

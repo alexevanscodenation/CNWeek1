@@ -53,139 +53,139 @@
 // Eg. if age > 17 and country == “UK”.
 
 // ACTIVITY 1
-// let age = 18
+let age = 18
 
-// if (age == 18 || age >= 18) {
-//     console.log("Welcome inside");
-// }
-// else {
-//     console.log("You aren't old enough");
-// }
+if (age == 18 || age >= 18) {
+    console.log("Welcome inside");
+}
+else {
+    console.log("You aren't old enough");
+}
 
 // ACTIVITY 1B
-// let age = 18
-// let country = "US"
+let age = 18
+let country = "US"
 
-// if (age >= 18 && country == "UK") {
-//     console.log("Welcome inside");
-// }
-// else {
-//     console.log("You aren't old enough");
-// }
+if (age >= 18 && country == "UK") {
+    console.log("Welcome inside");
+}
+else {
+    console.log("You aren't old enough");
+}
 
 // ACTIVITY 2
-// let topping = "Onion"
+let topping = "Onion"
 
-// switch(topping) {
-//     case "Pepperoni":
-//         console.log(`${topping} is an important ingredient to my pizza`);
-//         break;
-//     case "Onion":
-//     case "Mushrooms":
-//     case "Pineapple":
-//         console.log("I don't want that on my pizza!")
-//     default:
-//         console.log("urgh")
-// }
+switch(topping) {
+    case "Pepperoni":
+        console.log(`${topping} is an important ingredient to my pizza`);
+        break;
+    case "Onion":
+    case "Mushrooms":
+    case "Pineapple":
+        console.log("I don't want that on my pizza!")
+    default:
+        console.log("urgh")
+}
 
 // ACTIVITY 3
 
-// let password = "Alex123"
-// if (password.length >= 8) {
-//     console.log("Correct");
-// }
-// else {
-//     console.log("password too short");
-// }
+let password = "Alex123"
+if (password.length >= 8) {
+    console.log("Correct");
+}
+else {
+    console.log("password too short");
+}
 
-// Create a variable called num.
-// Check if the variable is divisible by 3 or 5. If it
-// is, log “This number is divisible by 3 or 5”.
-// Otherwise log something else. 
+Create a variable called num.
+Check if the variable is divisible by 3 or 5. If it
+is, log “This number is divisible by 3 or 5”.
+Otherwise log something else. 
 
-// // ACTIVITY 4
+// ACTIVITY 4
 
-// let num = 2
-// if (num % 3 == 0 || num % 5 == 0) {
-//     console.log(`${num} is divisible by 3 or 5`);
-// }
-// else {
-//     console.log(`${num} isn't divisible by rather 3 or 5`)
-// }
+let num = 2
+if (num % 3 == 0 || num % 5 == 0) {
+    console.log(`${num} is divisible by 3 or 5`);
+}
+else {
+    console.log(`${num} isn't divisible by rather 3 or 5`)
+}
 
-// // ACTIVITY 5
+// ACTIVITY 5
 
-// let i = 10
-// if (i % 15 == 0) console.log("FizzBuzz");
-// else if (i % 3 == 0) console.log("Fizz");
-// else if (i % 5 == 0) console.log("Buzz");
-// else console.log(i);
+let i = 10
+if (i % 15 == 0) console.log("FizzBuzz");
+else if (i % 3 == 0) console.log("Fizz");
+else if (i % 5 == 0) console.log("Buzz");
+else console.log(i);
 
 
-// // // Activity 6
-// let num = 7261;
-// let numString = num.toString(); 
-// let reverseNumString = numString.split('').reverse().join('');
+// Activity 6
+let num = 7261;
+let numString = num.toString(); 
+let reverseNumString = numString.split('').reverse().join('');
 
-// if (num == reverseNumString){
-//     console.log(`Yes ${num} is a palindrome`)
-// } else {
-//     console.log(`No ${num} is not a palindrome`)
-// }
+if (num == reverseNumString){
+    console.log(`Yes ${num} is a palindrome`)
+} else {
+    console.log(`No ${num} is not a palindrome`)
+}
 
-// // // Activity 7
-// let time = 7;
-// let placeOfWork = "Manchester"
-// let townOfHome = "Golborne"
+// Activity 7
+let time = 7;
+let placeOfWork = "Manchester"
+let townOfHome = "Golborne"
 
-// if (time == 8){
-//   console.log(`I am commuting to work in ${placeOfWork}`);
-// } else if (time == 7){
-//   console.log(`I am at home in ${townOfHome}`);
-// } else if (time == 9){
-//   console.log(`I am at work in ${placeOfWork}`)
-// } else {
-//   console.log(`If it is between 9 and 5 I am at work in ${placeOfWork}. Otherwise, I'm at home in ${townOfHome}`);
-// }
+if (time == 8){
+  console.log(`I am commuting to work in ${placeOfWork}`);
+} else if (time == 7){
+  console.log(`I am at home in ${townOfHome}`);
+} else if (time == 9){
+  console.log(`I am at work in ${placeOfWork}`)
+} else {
+  console.log(`If it is between 9 and 5 I am at work in ${placeOfWork}. Otherwise, I'm at home in ${townOfHome}`);
+}
 
-// // // Activity 8
-// let string = 'jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi';
-// let vowelArr = ['a', 'e', 'i', 'o', 'u'];
-// let highestIndex =0;
-// // counter go through whole array using length as limiter
-// for (let i = 0; i < vowelArr.length; i++){
-// //  console.log(string.lastIndexOf(vowelArr[i]));
-// // gets index of vowel in current iteration
-//     index = string.lastIndexOf(vowelArr[i]);
-// // compares current index to find highest index
-// if (index >= highestIndex ){
-// // so new highestindex becomes index
-//     highestIndex = index;
-// // won't reach last two nums in vowelarray
-//     lastVowel = vowelArr[i];
-// }
-// }
+// Activity 8
+let string = 'jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi';
+let vowelArr = ['a', 'e', 'i', 'o', 'u'];
+let highestIndex =0;
+// counter go through whole array using length as limiter
+for (let i = 0; i < vowelArr.length; i++){
+//  console.log(string.lastIndexOf(vowelArr[i]));
+// gets index of vowel in current iteration
+    index = string.lastIndexOf(vowelArr[i]);
+// compares current index to find highest index
+if (index >= highestIndex ){
+// so new highestindex becomes index
+    highestIndex = index;
+// won't reach last two nums in vowelarray
+    lastVowel = vowelArr[i];
+}
+}
 
-// // This like logs the last Vowel to the console. 
-// console.log(lastVowel); 
-// // This line logs the index number of the last vowel. 
-// console.log(highestIndex)
+// This like logs the last Vowel to the console. 
+console.log(lastVowel); 
+// This line logs the index number of the last vowel. 
+console.log(highestIndex)
 
-// // // Activity 9
-// let word = "ABBA";
-// if (word.charAt(0) == word.charAt(word.length-1)){
-//   console.log("True")
-// } else {
-//   console.log("False")
-// }
+// // Activity 9
+let word = "ABBA";
+if (word.charAt(0) == word.charAt(word.length-1)){
+  console.log("True")
+} else {
+  console.log("False")
+}
 
-// // Challenge 10
-// let num1 = 7;
-// let num2 = 7;
-// let sum = num1 + num2;
+// Activity 10
+let num1 = 7;
+let num2 = 7;
+let sum = num1 + num2;
 
-// if (sum % 2 == 0){
-//   console.log(`The sum = ${sum} and is even.`)
-// } else {
-//   console.log(`${num1 * num2}`)
-// }
+if (sum % 2 == 0){
+  console.log(`The sum = ${sum} and is even.`)
+} else {
+  console.log(`${num1 * num2}`)
+}
